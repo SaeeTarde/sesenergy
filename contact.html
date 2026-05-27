@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | SAI Energy Services</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- TOPBAR -->
+    <div class="topbar">
+      <div class="container">
+        <span>📍 Katraj, Pune – 411046 | BEE Certified Energy Auditor</span>
+        <div class="topbar-links">
+          <a href="tel:7709987480">📞 7709987480</a>
+          <a href="mailto:sesenergy55@gmail.com">✉ sesenergy55@gmail.com</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">SES</div>
+          <div class="logo-text">
+            <div class="logo-name">SAI ENERGY SERVICES</div>
+            <div class="logo-tagline">Committed for Greener Tomorrow</div>
+          </div>
+        </a>
+
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="audit-process.html">Audit Process</a>
+          <a href="case-studies.html">Case Studies</a>
+          <a href="industries.html">Industries</a>
+          <a href="contact.html" class="active btn btn-green">Get Quote</a>
+        </div>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="section-pad-sm" style="background: var(--off-white)">
+      <div class="container" style="text-align: center">
+        <div class="eyebrow">Get In Touch</div>
+        <h1 class="section-title">Request Your <span>Energy Audit</span></h1>
+        <p class="section-sub" style="margin: auto">
+          Tell us about your plant and energy usage — our experts will get back
+          with savings opportunities.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section-pad">
+      <div class="container">
+        <div class="contact-wrapper">
+          <!-- FORM -->
+          <div>
+            <h2 class="section-title">Send Us Details</h2>
+
+            <!-- 🔥 Replace action URL after Formspree setup -->
+            <form
+              action="https://formspree.io/f/mlgvwvpd"
+              method="POST"
+              class="contact-form"
+            >
+              <input
+                type="hidden"
+                name="_subject"
+                value="New Energy Audit Enquiry"
+              />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" name="Full Name" required />
+              </div>
+
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="_replyto" required />
+              </div>
+
+              <div class="form-group">
+                <label>Phone</label>
+                <input type="tel" name="Phone Number" required />
+              </div>
+
+              <div class="form-group">
+                <label>Company Name</label>
+                <input type="text" name="Company Name" />
+              </div>
+
+              <div class="form-group">
+                <label>Industry Type</label>
+                <input type="text" name="Industry Type" />
+              </div>
+
+              <div class="form-group">
+                <label>Service Required</label>
+                <select name="Service Required">
+                  <option>Energy Audit</option>
+                  <option>Power Quality Audit</option>
+                  <option>Thermography</option>
+                  <option>Consulting</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>Message</label>
+                <textarea name="Client Message" rows="5" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                ⚡ Request Audit
+              </button>
+            </form>
+
+            <p
+              id="formSuccess"
+              style="display: none; color: green; margin-top: 15px"
+            >
+              ✅ Thank you for contacting us! Your request has been successfully
+              submitted.
+            </p>
+          </div>
+
+          <!-- CONTACT INFO -->
+          <div class="contact-info">
+            <h2 class="section-title">Contact Information</h2>
+
+            <div
+              style="
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+              "
+            >
+              <div class="service-card">
+                <h3>📍 Office Address</h3>
+                <p>
+                  Flat No. 304, Swagat Residency,<br />
+                  Plot 36, S.No.73, B/H Katraj Dairy,<br />
+                  Katraj, Pune – 411046
+                </p>
+              </div>
+
+              <div class="service-card">
+                <h3>📞 Phone</h3>
+                <p><a href="tel:7709987480">7709987480</a></p>
+              </div>
+
+              <div class="service-card">
+                <h3>✉ Email</h3>
+                <p>
+                  <a href="mailto:sesenergy55@gmail.com"
+                    >sesenergy55@gmail.com</a
+                  >
+                </p>
+              </div>
+
+              <div class="service-card">
+                <h3>⏱ Working Hours</h3>
+                <p>Mon – Sat: 9:00 AM – 6:00 PM</p>
+              </div>
+
+              <div class="audit-cta-box">
+                <h3>⚡ Want a Faster & More Accurate Audit?</h3>
+                <p>
+                  Share detailed energy and equipment data with us to get a more
+                  precise analysis and quicker recommendations.
+                </p>
+
+                <a
+                  href="https://forms.gle/5t3dniLcVTNrxKa19"
+                  target="_blank"
+                  class="btn btn-green"
+                >
+                  Fill Detailed Energy Audit Form →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section style="background: var(--gold); padding: 60px 0">
+      <div class="container" style="text-align: center">
+        <h2 style="color: var(--navy)">Start Saving Energy Today ⚡</h2>
+        <p style="color: var(--navy)">
+          Our experts will analyze your plant and identify hidden savings.
+        </p>
+      </div>
+    </section>
+
+    <!-- FOOTER (same as index, reuse your existing footer here) -->
+    <!-- 👉 Copy footer from index.html -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="logo">
+              <div class="logo-icon">SES</div>
+              <div class="logo-text">
+                <div class="logo-name">SAI ENERGY SERVICES</div>
+                <div class="logo-tagline">Committed for Greener Tomorrow</div>
+              </div>
+            </div>
+            <p style="margin-top: 16px">
+              A Pune-based energy management consultancy helping industries
+              across India save 5–30% on annual energy costs.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <div class="footer-links">
+              <a href="index.html">Home</a><a href="about.html">About Us</a
+              ><a href="services.html">Services</a
+              ><a href="audit-process.html">Audit Process</a
+              ><a href="case-studies.html">Case Studies</a
+              ><a href="industries.html">Industries</a
+              ><a href="contact.html">Contact Us</a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <div class="footer-links">
+              <a href="services.html">Energy Audits</a
+              ><a href="services.html">Power Quality</a
+              ><a href="services.html">Steam Audits</a
+              ><a href="services.html">Thermography</a
+              ><a href="services.html">Energy Management</a
+              ><a href="services.html">Training</a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <div class="footer-contact-item">
+              📍 Flat 304, Swagat Residency, Katraj, Pune – 411046
+            </div>
+            <div class="footer-contact-item">
+              📞 <a href="tel:7709987480">7709987480</a>
+            </div>
+            <div class="footer-contact-item">
+              ✉ <a href="mailto:sesenergy55@gmail.com">sesenergy55@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2025 SAI Energy Services. All Rights Reserved.</span
+          ><span>BEE Certified Energy Auditor – Pune</span>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
