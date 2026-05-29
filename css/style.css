@@ -1374,14 +1374,14 @@ ul {
   padding: 25px;
   border-radius: 12px;
   background: #f5f9ff;
-  border-left: 4px solid #0a66c2;
+  border-left: 4px solid #0a3b6c;
   text-align: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 }
 
 .audit-cta-box h3 {
   margin-bottom: 10px;
-  color: #0a66c2;
+  color: #0a3b6c;
 }
 
 .audit-cta-box p {
